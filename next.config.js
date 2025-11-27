@@ -49,6 +49,15 @@ const securityHeaders = [
   },
 ]
 
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  images: {
+    domains: ['x0.ifengimg.com'],
+  },
+};
+
+module.exports = nextConfig;
+
 /**
  * @type {import('next/dist/next-server/server/config').NextConfig}
  **/
